@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -a1p | grep -vE "^\.|/$" | LC_ALL=C sort -df | paste -sd ","
